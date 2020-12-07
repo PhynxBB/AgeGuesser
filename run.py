@@ -1,8 +1,8 @@
-year = input("Current Year")
+year = input("Current Year: ")
 # declaring a string variable based on user input
-birth_year = input("Birth Year")
+birth_year = input("Birth Year: ")
 # declaring a string variable based on user input
-has_passed = input("Have you had your birthday this year?")
+has_passed = input("Have you had your birthday this year?: ")
 # declaring a string variable based on user input
 if str.lower(has_passed) == "yes":
     age = int(year) - int(birth_year)
